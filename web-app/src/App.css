@@ -1,0 +1,13 @@
+.withcolumn {
+    width: 10px;
+    text-align: center;
+    
+  }
+
+.pointer {
+    cursor: pointer;
+}
+
+.rightProfile {
+  text-align: right;
+}

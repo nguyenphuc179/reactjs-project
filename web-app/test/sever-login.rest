@@ -1,0 +1,19 @@
+post http://localhost:3300/api/login http/1.1
+content-type: application/json
+ 
+{
+  "loginType": "customer",
+  "email": "debra.burks@yahoo.com"
+}
+###
+post http://localhost:3300/api/login http/1.1
+content-type: application/json
+ 
+{
+  "loginType": "staff",
+  "email": "fabiola.jackson@bikes.shop"
+}
+
+
+
+
